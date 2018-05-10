@@ -14,7 +14,8 @@ class BlogShow extends Component {
           src={
             'https://s3.amazonaws.com/nodejs.blog.course.bucket/' +
             this.props.blog.imageUrl
-          } 
+          }
+          alt="Attached_to_Blog" 
         />
       );
     }
